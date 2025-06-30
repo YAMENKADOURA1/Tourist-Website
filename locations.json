@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Navagio Beach (Shipwreck Beach)",
+    "location": "Zakynthos, Greece",
+    "description": "A stunning cove beach with crystal-clear waters, surrounded by towering cliffs and accessible only by boat.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgPf_klcjF3oJ-LbpOjK_qyNGcJ3ZXILvcog&s",
+    "type": "Beach"
+  },
+  {
+    "name": "Blue Lagoon",
+    "location": "Comino, Malta",
+    "description": "Turquoise waters and dramatic coastlines make this one of Europe’s most breathtaking swim spots.",
+    "image_url": "https://images.ctfassets.net/a68ipajj4t9l/67aqJovtK54hUZppdObklq/93ec87cffb8eb3c02149643c9afca977/blue_lagoon_header-2.jpg?w=1200&q=60",
+    "type": "Beach"
+  },
+  {
+    "name": "Table Mountain",
+    "location": "Cape Town, South Africa",
+    "description": "A flat-topped mountain offering panoramic views over Cape Town and the Atlantic Ocean.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0oS5cI0Fin3toGVvF1WqIB_-9AdiYlRAvuA&s",
+    "type": "Mountain"
+  },
+  {
+    "name": "Wadi Rum",
+    "location": "Jordan",
+    "description": "Vast sandstone valleys and red desert landscapes often compared to Mars, popular for camping and jeep tours.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJgPgK8ChIa5xuv_rN3bxKjz6SP2_ERWOJbw&s",
+    "type": "Desert"
+  },
+  {
+    "name": "Palawan",
+    "location": "Philippines",
+    "description": "Limestone cliffs, turquoise waters, and hidden lagoons define this tropical paradise ideal for beach lovers and adventurers alike.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbLYPDSBG-8IlTmU2DDN5d6PavbN2RkXFBOg&s",
+    "type": "Island"
+  },
+  {
+    "name": "Alhambra",
+    "location": "Granada, Spain",
+    "description": "A majestic palace-fortress complex rich in Islamic architecture and Moorish history.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdmBCjo7EV9Y8DBLtoET6spwwZRJA_pF3HZQ&s",
+    "type": "Historical Landmark"
+  },
+  {
+    "name": "Seven Mile Beach",
+    "location": "Grand Cayman, Caribbean",
+    "description": "Pristine white-sand beach with calm blue waters and luxurious resorts.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpsODtP_yyyZZILKXr2r-NNGt2kkCoLXkXBQ&s",
+    "type": "Beach"
+  },
+  {
+    "name": "Bali",
+    "location": "Indonesia",
+    "description": "A volcanic island famed for its forested hills, coral reefs, surf spots, and spiritual temples.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSHKACJb-mtGbqZIx6gUxmfuWDGnZgzPPtuw&s",
+    "type": "Island"
+  }
+]

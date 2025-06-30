@@ -1,0 +1,195 @@
+body {
+    background-image: url('../image/background.jpg');
+    /* Path to your image */
+    background-size: cover;
+    /* Makes sure it covers the whole screen */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents tiling */
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+    font-family: sans-serif;
+    /* Optional: for a cleaner look */
+}
+
+.logo {
+    width: 80px;
+    /* Adjust based on your design */
+    height: auto;
+    border-radius: 8px;
+    /* Rounded corners — or use 50% for a circle */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    /* Soft shadow */
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    /* Adds a hover effect */
+}
+
+.intro,
+.about {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    max-width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about {
+    max-width: 100%;
+}
+
+.text-heading {
+    color: #FFF;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.intro-text,
+.about-text {
+    color: #FFF;
+    opacity: 0.8;
+    text-align: justify;
+}
+
+.about-text {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 30px;
+}
+
+.intro button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+footer .links li {
+    list-style-type: none;
+}
+
+footer .links li a i {
+    color: #FFF;
+    font-size: 24px;
+    transition: 0.2s ease-in-out;
+}
+
+footer .links li a i:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.our-team {
+    margin-left: 30px;
+    color: #FFF;
+}
+
+.text-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFF
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+}
+
+.history {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    margin-top: 100px;
+    padding: 10px 30px;
+}
+
+.history article h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.history article p {
+    opacity: 0.5;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.left-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.left-form h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.left-form p {
+    opacity: 0.9;
+}
+
+.right-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.location-image {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.results-section {
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    width: 320px;
+    max-height: 85vh;
+    overflow-y: auto;
+    z-index: 9999;
+}
